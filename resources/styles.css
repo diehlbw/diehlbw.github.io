@@ -2,6 +2,7 @@
 body {
   font-family: "Montserrat";
   text-align: center;
+  background-color: #D6FFF6;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -9,6 +10,13 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 p {
+  color: #231651;
+}
+
+a:link {
+  color: #F26419;
+}
+a:visited {
   color: #231651;
 }
 
@@ -67,12 +75,6 @@ p {
   font-family: "Montserrat-Light";
 }
 
-/* Buttons */
-
-.download-button {
-  margin: 5% 3% 5% 0;
-}
-
 /* Title Section */
 
 #title {
@@ -85,6 +87,12 @@ p {
   padding: 3% 15% 7%;
 }
 
+.prose {
+  text-align: left;
+  font-size: 1rem;
+  font-weight: normal;
+}
+
 /* Title Image */
 
 .title-image {
@@ -93,10 +101,8 @@ p {
   right: 30%;
 }
 
-/* Features Section */
-.icon {
-  color: #33658A;
-  margin-bottom: 1rem;
+.puzzle-list {
+  text-align: left;
 }
 
 .icon:hover {
@@ -122,10 +128,6 @@ p {
 .answer {
   font-size: 2rem;
   font-weight: bold;
-}
-
-.social-icon {
-  margin: 20px 10px;
 }
 
 @media (max-width: 1028px) {
