@@ -28,11 +28,6 @@ a:visited {
   line-height: 1.5;
 }
 
-.section-heading {
-  font-size: 3rem;
-  line-height: 1.5;
-}
-
 /* Containers */
 
 .container-fluid{
@@ -53,26 +48,6 @@ a:visited {
 .emphasis-section {
   background-color: #F26419;
   color: #33658A;
-}
-/* Navigation Bar */
-
-.navbar {
-  padding: 0 0 4.5rem;
-}
-
-.navbar-brand {
-  font-family: "Ubuntu";
-  font-size: 2.5rem;
-  font-weight: bold;
-}
-
-.nav-item {
-  padding: 0 18px;
-}
-
-.nav-link {
-  font-size: 1.2rem;
-  font-family: "Montserrat-Light";
 }
 
 /* Title Section */
@@ -105,9 +80,6 @@ a:visited {
   text-align: left;
 }
 
-.icon:hover {
-  color: #41D3BD;
-}
 /* Puzzle */
 .large-image {
   width: 100%;
