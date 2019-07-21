@@ -19,12 +19,9 @@ a:link {
 a:visited {
   color: #231651;
 }
-td {
-  font-size: 3rem;
-}
-th {
-  font-size: 3.5rem;
-  font-weight: bold;
+
+#symbols {
+  font-size: 2rem;
 }
 /* Headings */
 
