@@ -8,6 +8,7 @@
     <!-- CSS Stylesheets -->
     <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="resources/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.9.0/css/all.css">
   
     <!-- Bootstrap Scripts -->
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.bundle.min.js" integrity="sha384-xrRywqdh3PHs8keKZN+8zzc5TX0GRTLCcmivcbNJWm2rs5C8PRhcEn3czEjhAO9o" crossorigin="anonymous"></script>
@@ -40,15 +41,34 @@
 
     <!-- Puzzle list-->
     <section class="white-section" id="list">
-      <div class="container-fluid">
+      <div class="container">
       <h1 class="big-heading">Puzzles</h1>
-      <div class="puzzle-list">
-        <ul>
-            <li><a href="http://diehlbw.github.io/greetings.html">Greetings (Posted: July 2019)</a></li>
-            <li><a href="http://diehlbw.github.io/travel.html">Travel (Posted: July 2019)</a></li>
-        </ul>
+        <div class="row">
+          <div class="col-3"><a href="http://diehlbw.github.io/greetings.html">Greetings</a></div>
+          <div class="col-2"><span class="text-nowrap">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="far fa-star"></i>
+            <i class="far fa-star"></i>
+            <i class="far fa-star"></i>
+          </span></div>   
+          <div class="col-7">Solvers: <span class="text-nowrap">Danna (04Aug19)</span></div>
+        </div>
+        <div class="row">
+          <div class="col-3"><a href="http://diehlbw.github.io/travel.html">Travel</a></div>
+          <div class="col-2"><span class="text-nowrap">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star-half-alt"></i>
+            <i class="far fa-star"></i>
+          </span></div>   
+          <!--
+          <div class="col-7">Solvers: <em>None</em></div>
+          -->
+        </div>
       </div>
-      </div>
+
     </section>
 
     <section class="colored-section" id="help">

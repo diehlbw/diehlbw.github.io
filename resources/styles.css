@@ -23,6 +23,10 @@ a:visited {
 #symbols {
   font-size: 3rem;
 }
+
+.text-nowrap {
+  white-space: nowrap;
+}
 /* Headings */
 
 .big-heading {
